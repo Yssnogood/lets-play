@@ -346,19 +346,6 @@ Typical responses include:
 
 ## Database Inspection
 
-### With MongoDB for VS Code
-
-Use this local connection string:
-
-```text
-mongodb://localhost:27017
-```
-
-Then browse:
-
-- database: `cruddb`
-- collections: `users`, `products`
-
 ### With mongosh
 
 ```bash
@@ -405,7 +392,3 @@ The script checks:
 - HTTPS is enabled by default for local development
 - Self-signed or development certificates require `curl -k`
 - User deletion also removes that user's products
-
-## License
-
-No license file is currently provided in this repository.
