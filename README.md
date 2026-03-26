@@ -95,7 +95,7 @@ chmod +x mvnw
 Or from the workspace absolute path:
 
 ```bash
-cd "/home/altani/Bureau/Le travail, oskour/lets-play/crud-api"
+cd "/lets-play/crud-api"
 chmod +x mvnw
 ./mvnw spring-boot:run
 ```
@@ -387,7 +387,7 @@ cd crud-api
 The repository also contains an audit helper script at the root:
 
 ```bash
-cd "/home/altani/Bureau/Le travail, oskour/lets-play"
+cd "/lets-play"
 bash audit_check.sh
 ```
 
